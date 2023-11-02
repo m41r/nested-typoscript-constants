@@ -1,0 +1,27 @@
+{
+  "name": "m41r/nested-typoscript-constants",
+  "type": "typo3-cms-extension",
+  "description": "A simple proof-of-concept extension to support nested TypoScript constants again after the new TypoScript Parser introduction in Typo3 v12.",
+  "authors": [
+    {
+      "name": "Julian Mair",
+      "email": "julian.mair@brandnamic.com",
+      "role": "Backend Web Developer"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "typo3/cms-core": "^12 || dev-main",
+    "typo3/cms-frontend": "^12 || dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "M41r\\NestedTyposcriptConstants\\": "Classes/"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "nested_typoscript_constants"
+    }
+  }
+}

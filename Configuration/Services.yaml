@@ -1,0 +1,13 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  M41r\NestedTyposcriptConstants\:
+    resource: '../Classes/*'
+
+  M41r\NestedTyposcriptConstants\EventListeners\ModifyTypoScriptConstantsAstEventListener:
+    tags:
+      - name: event.listener
+        identifier: 'nested_typoscript_constants.modifyTypoScriptConstantsAstEventListener'
