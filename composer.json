@@ -11,8 +11,8 @@
   ],
   "license": "MIT",
   "require": {
-    "typo3/cms-core": "^12 || dev-main",
-    "typo3/cms-frontend": "^12 || dev-main"
+    "typo3/cms-core": "^12 || ^13 || dev-main",
+    "typo3/cms-frontend": "^12 || ^13 || dev-main"
   },
   "autoload": {
     "psr-4": {
